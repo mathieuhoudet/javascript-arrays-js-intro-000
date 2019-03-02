@@ -6,7 +6,7 @@ function addElementToBeginningOfArray(array1,newValue) {
   array1.unshift(newValue);
   return array1;
 }
-console.log(addElementToBeginningOfArray(array1,"haha"))
+addElementToBeginningOfArray(array1,"haha")
 
 /*
 var destructivelyAddElementToBeginningOfArray = function () {
