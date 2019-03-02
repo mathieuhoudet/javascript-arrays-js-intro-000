@@ -6,6 +6,7 @@ var addElementToBeginningOfArray = function () {
   array1.unshift("test 0");
   return array1;
 }
+console.log(addElementToBeginningOfArray)
 
 var destructivelyAddElementToBeginningOfArray = function () {
   var array2 = ["testa",...addElementToBeginningOfArray];
