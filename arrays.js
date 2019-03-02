@@ -3,8 +3,7 @@ console.log(chocolateBars);
 
 var addElementToBeginningOfArray = function () {
   var array1 = ["test1", "test2", "test3"];
-  array1 = ["test0",...array1];
-  return array1;
+  return array1.unshift("test0");
 }
 console.log(addElementToBeginningOfArray);
 
