@@ -7,8 +7,10 @@ var addElementToBeginningOfArray = function () {
 }
 console.log(addElementToBeginningOfArray);
 
+/*
 var destructivelyAddElementToBeginningOfArray = function () {
   var array2 = ["testa",...addElementToBeginningOfArray];
   return array2;
 }
 console.log(destructivelyAddElementToBeginningOfArray);
+*/
