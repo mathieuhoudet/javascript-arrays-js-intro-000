@@ -14,3 +14,8 @@ function destructivelyAddElementToBeginningOfArray(array1,newValue2){
 function addElementToEndOfArray(array2,newValue3){
   return [...array2,newValue3];
 }
+
+function destructivelyAddElementToEndOfArray(array2,newValue4){
+  array2.push(newValue4);
+  return array2;
+}
